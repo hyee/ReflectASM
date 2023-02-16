@@ -65,7 +65,9 @@ public class ConstructorAccess<ANY> {
         return classInfo.constructorParamTypes;
     }
 
-    public Integer[] getModifiers() {return classInfo.constructorModifiers;}
+    public Integer[] getModifiers() {
+        return classInfo.constructorModifiers;
+    }
 
     public int getConstructorCount() {
         return classInfo.constructorCount;

@@ -64,7 +64,9 @@ public class MethodAccess<ANY> {
         return console.indexOfMethod(methodName, paramsCount);
     }
 
-    public String[] getMethodNames() {return classInfo.methodNames;}
+    public String[] getMethodNames() {
+        return classInfo.methodNames;
+    }
 
     public Class[][] getParameterTypes() {
         return classInfo.methodParamTypes;
@@ -74,7 +76,9 @@ public class MethodAccess<ANY> {
         return classInfo.returnTypes;
     }
 
-    public Integer[] getModifiers() {return classInfo.constructorModifiers;}
+    public Integer[] getModifiers() {
+        return classInfo.constructorModifiers;
+    }
 
     public int getMethodCount() {
         return classInfo.methodCount;
